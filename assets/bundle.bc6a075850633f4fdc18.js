@@ -3249,7 +3249,7 @@ function renderResult(results) {
             if (index > 0) {
                 tdElem.appendChild(document.createElement("br"));
             }
-            tdElem.appendChild(document.createTextNode(pwd));
+            tdElem.appendChild(`<code>${document.createTextNode(pwd)}</code>`);
         });
         trElem.appendChild(tdElem);
         table.appendChild(trElem);
