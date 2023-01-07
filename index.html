@@ -46,10 +46,14 @@
           <br>
           <br>
           <form name="pwgen" id="form_id" style="display: grid; place-items: center;">
-            <input autocomplete="off" placeholder="Code" type="text" id="serial_id">
+            <div class="input-group mb-3">
+              <input autocomplete="off" class="form-control" placeholder="Code" type="text" id="serial_id">
+            </div>
             <br>
             <br>
-            <input type="submit" class="btn btn-success" name="serial" id="button_id" value="Get password">
+            <div class="input-group mb-3">
+              <input type="submit" class="btn btn-success" name="serial" id="button_id" value="Get password">
+            </div>
           </form>
         </div>
         <div id="result_id">
