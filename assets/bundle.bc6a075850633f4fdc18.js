@@ -3250,6 +3250,11 @@ function renderResult(results) {
                 tdElem.appendChild(document.createElement("br"));
             }
             tdElem.appendChild(`<code>${document.createTextNode(pwd)}</code>`);
+            tdElem.style.color = "crimson";
+            tdElem.style.backgroundColor = "#f1f1f1";
+            tdElem.style.padding = "2px";
+            tdElem.style.fontSize = "105%";
+            tdElem.style.fontFamily = 'Consolas,"courier new"';
         });
         trElem.appendChild(tdElem);
         table.appendChild(trElem);
